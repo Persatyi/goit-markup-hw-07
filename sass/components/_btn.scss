@@ -1,10 +1,9 @@
 .button {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
   
-    border-radius: 4px;
+    margin: 0 auto;
     padding: 10px;
     min-width: 200px;
     max-height: 50px;
@@ -21,6 +20,7 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
   
+    border-radius: 4px;
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     border: 0px solid transparent;
@@ -28,12 +28,15 @@
     transition: color 250ms cubic-bezier(var(--cubic-bz)),
       background-color 250ms cubic-bezier(var(--cubic-bz)),
       box-shadow 250ms cubic-bezier(var(--cubic-bz));
-  }
-  
-  .button:hover,
-  .button:focus {
+
+    &:hover,
+    &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--primary-white-color);
     color: var(--accent-color);
     outline: transparent;
   }
+  
+  }
+  
+  
