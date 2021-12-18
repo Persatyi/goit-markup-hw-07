@@ -1,11 +1,5 @@
-.employees {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: rgba(245, 244, 250, 1);
-
-  &__list {
-    display: flex;
-  }
+.team {
+  display: flex;
 
   &__item {
     background-color: #ffffff;
@@ -19,7 +13,7 @@
     }
   }
 
-  &__pic {
+  &__photo {
     margin-bottom: 30px;
   }
 

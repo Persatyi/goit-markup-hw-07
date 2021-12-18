@@ -1,11 +1,6 @@
 .examples {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
-  &__list {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
 
   &__item {
     position: relative;

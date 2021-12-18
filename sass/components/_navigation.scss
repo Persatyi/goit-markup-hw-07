@@ -1,28 +1,14 @@
-.header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.nav {
+  display: flex;
+  align-items: center;
 
-  &__line {
-    border-bottom: 1px solid rgba(236, 236, 236, 1);
-  }
-
-  &__container {
-    display: flex;
-    align-items: center;
-  }
-
-  &__nav {
-    display: flex;
-    align-items: center;
-  }
-
-  &__nav-list {
+  &__list {
     display: flex;
     align-items: center;
     margin-left: 93px;
   }
 
-  &__nav-item {
+  &__item {
     position: relative;
 
     &:not(:first-child) {
@@ -30,7 +16,7 @@
     }
   }
 
-  &__nav-link {
+  &__link {
     color: var(--title-text-color);
     text-decoration: none;
 
